@@ -26,6 +26,7 @@ const Index = () => {
         <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445" alt="Delicious Food 3" className="mx-auto object-cover w-full h-48 rounded-lg shadow-md" />
       </div>
     </div>
+  </div>
   );
 };
 
