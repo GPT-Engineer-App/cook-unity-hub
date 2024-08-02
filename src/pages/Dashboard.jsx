@@ -26,14 +26,14 @@ const Dashboard = () => {
           </TabsContent>
           <TabsContent value="actions">
             <h2 className="text-2xl font-bold mb-4">My Actions</h2>
-            <div className="space-y-4">
-              <Button className="w-full bg-yellow-400 hover:bg-yellow-500 text-black">
+            <div className="space-y-4 flex flex-col items-center">
+              <Button className="w-64 bg-yellow-400 hover:bg-yellow-500 text-black">
                 Manage my orders
               </Button>
-              <Button className="w-full bg-yellow-400 hover:bg-yellow-500 text-black">
+              <Button className="w-64 bg-yellow-400 hover:bg-yellow-500 text-black">
                 Place a new order
               </Button>
-              <Button className="w-full bg-yellow-400 hover:bg-yellow-500 text-black" onClick={handleSignOut}>
+              <Button className="w-64 bg-yellow-400 hover:bg-yellow-500 text-black" onClick={handleSignOut}>
                 Sign out
               </Button>
             </div>
