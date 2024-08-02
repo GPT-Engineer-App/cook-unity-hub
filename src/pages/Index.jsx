@@ -3,9 +3,16 @@ import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
-      <div className="text-center mb-8">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Cook Unity</h1>
+    <div className="min-h-screen flex flex-col bg-gray-100">
+      <header className="bg-yellow-400 p-4">
+        <div className="container mx-auto flex items-center justify-between">
+          <img src="https://www.cookunity.com/assets/icons/cookunity-new-white.svg" alt="Cook Unity Logo" className="h-8" />
+          <h1 className="text-2xl font-bold text-white">Cook Unity</h1>
+        </div>
+      </header>
+      <div className="flex-grow flex flex-col items-center justify-center p-4">
+        <div className="text-center mb-8">
+          <h2 className="text-4xl font-bold mb-4">Welcome to Cook Unity</h2>
         <p className="text-xl text-gray-600 mb-8">Your one-stop solution for business catering</p>
         <Link to="/login">
           <Button className="bg-yellow-400 hover:bg-yellow-500 text-black w-40">
