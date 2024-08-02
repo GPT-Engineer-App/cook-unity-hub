@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-100">
-      <header className="bg-yellow-400 p-4">
+      <header className="bg-black p-4">
         <div className="container mx-auto flex items-center justify-between">
           <img src="https://www.cookunity.com/assets/icons/cookunity-new-white.svg" alt="Cook Unity Logo" className="h-8" />
           <h1 className="text-2xl font-bold text-white">Cook Unity</h1>
